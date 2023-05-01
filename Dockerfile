@@ -8,6 +8,5 @@ EXPOSE 8000/tcp
 
 ADD ./start.sh /
 WORKDIR /web-server
-# COPY /django-project /web-server/
 
 ENTRYPOINT [ "sh","/start.sh" ]
